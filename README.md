@@ -33,6 +33,11 @@ Tools for Bitcoin and other cryptocurrencies.
 	>>> k1 = BitcoinKeypair()
 	>>> k2 = BitcoinKeypair.from_passphrase()
 
+### Generate random passphrase 
+
+    >>> from coins.passphrase import random_160bit_passphrase
+    >>> random_160bit_passphrase()
+
 ### Altcoin keypairs
 
 	>>> from coins.keypair import LitecoinKeypair

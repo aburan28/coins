@@ -33,17 +33,18 @@ Tools for Bitcoin and other cryptocurrencies.
 	>>> k1 = BitcoinKeypair()
 	>>> k2 = BitcoinKeypair.from_passphrase()
 
-### Generate random passphrase 
-
-    >>> from coins.passphrase import random_160bit_passphrase
-    >>> random_160bit_passphrase()
-
 ### Altcoin keypairs
 
 	>>> from coins.keypair import LitecoinKeypair
 	>>> ltc_k = LitecoinKeypair(hex_private_key)
 	>>> ltc_k.address()
 	'LMzqwhUFnqFLyEfMTvJkz7v1AC6v8N9Qcd'
+
+### Random passphrase generation
+
+	>>> from coins.passphrase import random_160bit_passphrase
+	>>> random_160bit_passphrase()
+	'shepherd mais pack rate enamel horace diva filesize maximum really roar mall'
 
 ## Supported currencies
 
